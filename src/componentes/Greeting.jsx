@@ -1,10 +1,5 @@
 import '../componentes/Greeting.css'
 
-export function Greeting () { 
-    return (
-        <div class="greeting">
-           BIENVENIDOS A LA FARMA FAVORITA 
-        </div>
-               
-    );
+export const Greeting = ({texto}) => { 
+    return <p class="greeting">{texto}</p>           
 };

@@ -12,7 +12,7 @@ function App() {
     <>
 
     <NavBar />
-    <Greeting />
+    <Greeting texto="Bienvenidos a la Farma"/>
 
     </>
   )
