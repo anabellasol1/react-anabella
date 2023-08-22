@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import { NavBar } from '../src/componentes/NavBar'
 import { Greeting } from './componentes/Greeting'
+import {ItemListContainer} from './componentes/ItemListContainer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,6 +14,7 @@ function App() {
 
     <NavBar />
     <Greeting texto="Bienvenidos a la Farma"/>
+    <ItemListContainer />
 
     </>
   )
